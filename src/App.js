@@ -57,7 +57,6 @@ function App() {
   function countryInfShow(pp)
   {
     let msg="N/A";
-    var Total=0;
     let MsgTitle="";
     
     let MsgBody="N/A";
@@ -90,11 +89,11 @@ function App() {
     setSearch(e);
   }
 
-  function imgPath(imgName)
-  {
-    let Path="https://flagcdn.com/w320/"+imgName+".png";
-    return Path;
-  }
+  // function imgPath(imgName)
+  // {
+  //   let Path="https://flagcdn.com/w320/"+imgName+".png";
+  //   return Path;
+  // }
 
   function prePage()
   {
